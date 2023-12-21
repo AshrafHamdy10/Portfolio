@@ -1,0 +1,53 @@
+.certs{
+    background-color: black;
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px;
+}
+.certs img{
+    border-radius: 20%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 125px;
+    margin-top: 10px;
+}
+.certs .item{
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    margin: 40px 0px;
+}
+.certs h5{
+    color: var(--main-color);
+    display: block;
+    margin: 10px 0px;
+    margin-bottom: 25px;
+}
+.certs button{
+    background-color: var(--main-color);
+    border: 1px solid var(--main-color);
+    padding: 3px;
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    margin-bottom: -25px;
+}
+.certs button a{
+    text-decoration: none;
+    color: #fff;
+}
+.certs [data-bs-theme=dark].carousel .carousel-indicators [data-bs-target] {
+    background-color: var(--main-color);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-bottom: -20px;
+}
+.certs h2{
+    font-family: 'Tajawal', sans-serif;
+    color: var(--main-color);
+    font-weight: bold;
+    font-size: 40px;
+}

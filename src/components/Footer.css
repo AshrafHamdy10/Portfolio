@@ -1,0 +1,28 @@
+.footer{
+    background-color: black;
+    overflow: hidden;
+    padding: 20px;
+    padding-top: 50px;
+}
+.footer img{
+    height: 50px;
+    margin-left: 14%;
+    width: 200px;
+}
+.footer a{
+    color: var(--main-color);
+    font-size: 25px;
+    margin-left: 17%;
+} 
+#linked:hover{
+    color: rgb(17, 108, 187);
+} 
+#github:hover{
+    color: #777;
+} 
+#google:hover{
+    color: rgb(184, 33, 33);
+} 
+.icons{
+    margin: 20px 0px;
+}

@@ -1,0 +1,65 @@
+
+
+.btn-primary {
+    margin-top: 25px !important;
+    margin-bottom: 25px !important;
+    background-color: var(--main-color) !important;
+    border-color: var(--main-color) !important;
+}
+.btn-primary a {
+    text-decoration: none;
+    color: #fff;
+}
+.btn-primary:hover {
+    background-color: white !important;
+    border: 1px solid var(--main-color) !important;
+    color: var(--main-color) !important;
+}
+.btn-primary:hover a {
+    color: var(--main-color) !important;
+}
+.projects{
+    background-color: black;
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px;
+}
+.projects img{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 265px;
+}
+.projects .item{
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    margin: 40px 0px;
+    padding: 5px;
+    height: auto;
+}
+.projects h5{
+    color: var(--main-color);
+    display: block;
+    margin: 10px 0px;
+    
+}
+.projects p{
+    
+    display: block;
+    margin: 10px 0px;
+    
+}
+.projects [data-bs-theme=dark].carousel .carousel-indicators [data-bs-target] {
+    background-color: var(--main-color);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.projects h2{
+    font-family: 'Tajawal', sans-serif;
+    color: var(--main-color);
+    font-weight: bold;
+    font-size: 40px;
+}
