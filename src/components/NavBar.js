@@ -4,6 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import "./NavBar.css";
 import logo from "../assets/Portfolio.png";
+import cv from "../assets/Ashraf-Hamdy-Resume.pdf";
 
 const NavBar = () => {
   return (
@@ -22,6 +23,11 @@ const NavBar = () => {
               <Nav.Link href="#projects">Projects</Nav.Link>
               <Nav.Link href="#certs">Certificates</Nav.Link>
               <Nav.Link href="#contacts">Contacts</Nav.Link>
+              <Nav.Link href={cv} download className="cv">
+                <a href={cv} download className="cv-link">
+                  Download CV
+                </a>
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

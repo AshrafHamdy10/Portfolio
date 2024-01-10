@@ -11,3 +11,23 @@ nav a:hover{
 }
 .navbar-toggler {
     background-color: #40C4FF !important;}
+
+    .cv{
+        background-color: var(--main-color) !important;
+        border: 1px solid var(--main-color) !important;
+        padding: 3px !important;
+        height: 40px !important;
+        width: 140px !important;
+        color: #fff !important;
+        transition: 0.3s ease-in-out;
+    }
+.cv a{text-decoration: none !important;
+color: #fff !important;}
+
+.cv:hover .cv-link{text-decoration: none !important;
+color: var(--main-color) !important;}
+
+.cv:hover {
+    background-color: transparent !important;
+    color: var(--main-color) !important;
+}

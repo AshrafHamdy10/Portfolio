@@ -23,7 +23,7 @@
     color: var(--main-color);
     display: block;
     margin: 10px 0px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 .slider [data-bs-theme=dark].carousel .carousel-indicators [data-bs-target] {
     background-color: var(--main-color);
