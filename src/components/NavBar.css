@@ -12,6 +12,9 @@ nav a:hover{
 .navbar-toggler {
     background-color: #40C4FF !important;}
 
+    img{
+        height: 50px;
+    }
     .cv{
         background-color: var(--main-color) !important;
         border: 1px solid var(--main-color) !important;
