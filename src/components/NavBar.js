@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import "./NavBar.css";
-import logo from "../assets/Portfolio.png";
+import logo from "../assets/special2.png";
 import cv from "../assets/Ashraf-Hamdy-Resume.pdf";
 
 const NavBar = () => {
