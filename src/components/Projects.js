@@ -10,6 +10,7 @@ import imgeditor from "../assets/img-editor.jpeg";
 import special from "../assets/special.jpeg";
 import special2 from "../assets/special2.png";
 import todolist from "../assets/ToDoList.jpeg";
+import careu from "../assets/Careu-logo.png";
 
 const Projects = () => {
   return (
@@ -36,6 +37,19 @@ const Projects = () => {
                       <a href="https://e-commerce-foodia.netlify.app/">
                         View Project
                       </a>
+                    </Button>
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img variant="top" src={careu} alt="CareU" />
+                  <Carousel.Caption>
+                    <h5>CareU</h5>
+                    <p>
+                      Resposive Website for Selling, Buying and Renting cars ,
+                      created with Material UI
+                    </p>
+                    <Button variant="primary">
+                      <a href="https://careu.netlify.app/">View Project</a>
                     </Button>
                   </Carousel.Caption>
                 </Carousel.Item>

@@ -8,6 +8,7 @@ import es6 from "../assets/es6.jpg";
 import bootstrap from "../assets/bootstrap.png";
 import reactjs from "../assets/reactjs.png";
 import seo from "../assets/seo.png";
+import MUI from "../assets/MUI.png";
 
 const Skills = () => {
   return (
@@ -56,6 +57,12 @@ const Skills = () => {
                   <img src={reactjs} alt="React.js" />
                   <Carousel.Caption>
                     <h5>React.js</h5>
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img src={MUI} alt="Material UI" />
+                  <Carousel.Caption>
+                    <h5>Material UI</h5>
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
