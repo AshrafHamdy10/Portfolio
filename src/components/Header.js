@@ -1,7 +1,6 @@
 import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import "./Header.css";
-import me from "../assets/Me.jpg";
 
 const Header = () => {
   const [text] = useTypewriter({
@@ -19,20 +18,15 @@ const Header = () => {
     <>
       <div className="header">
         <div className="container">
-          <div className="row">
-            <div className="col-md-6">
-              <h1>
-                I
-                <span>
-                  {" "}
-                  {text}
-                  <Cursor />
-                </span>
-              </h1>
-            </div>
-            <div className="col-md-6">
-              <img src={me} alt="Ashraf Hamdy" title="Ashraf Hamdy" />
-            </div>
+          <div>
+            <h1>
+              I
+              <span>
+                {" "}
+                {text}
+                <Cursor />
+              </span>
+            </h1>
           </div>
         </div>
       </div>
