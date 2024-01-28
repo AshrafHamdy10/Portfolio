@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import "./NavBar.css";
 import logo from "../assets/special2.png";
-import cv from "../assets/Ashraf-Hamdy-Resume.pdf";
+import cv from "../assets/Ashraf_Hamdy_CV.pdf";
 
 const NavBar = () => {
   return (
